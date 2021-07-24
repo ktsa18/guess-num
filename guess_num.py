@@ -1,5 +1,11 @@
 import random
-r = random.randint(1, 100)
+strat = input('請決定隨機數字範圍開始值')
+end = input('請決定隨機數字範圍結束值')
+strat = int(strat)
+end = int(end)
+
+
+r = random.randint(strat, end)
 count = 0
 
 while True:
